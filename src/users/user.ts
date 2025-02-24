@@ -1,6 +1,6 @@
 import express from 'express';
 import axios from 'axios';
-import { BASE_USER_PORT, REGISTRY_PORT } from '../config';
+import { BASE_USER_PORT, REGISTRY_PORT, BASE_ONION_ROUTER_PORT } from '../config';
 import { generateSymmetricKey, encryptWithSymmetricKey, encryptWithPublicKey } from '../crypto';
 import { NodeInfo } from '../registry/registry';
 
